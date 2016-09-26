@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D80D814B1D34307400C23373 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D814A1D34307400C23373 /* main.m */; };
+		D80D814E1D34307400C23373 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D814D1D34307400C23373 /* AppDelegate.m */; };
+		D80D81511D34307400C23373 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D81501D34307400C23373 /* ViewController.m */; };
+		D80D81541D34307400C23373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80D81521D34307400C23373 /* Main.storyboard */; };
+		D80D81561D34307400C23373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80D81551D34307400C23373 /* Assets.xcassets */; };
+		D80D81591D34307400C23373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80D81571D34307400C23373 /* LaunchScreen.storyboard */; };
+		D80D81641D34307400C23373 /* DigitalLeashParentAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D81631D34307400C23373 /* DigitalLeashParentAppUITests.m */; };
+		D89D134D1D36E25800C37CA5 /* StatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D89D134C1D36E25800C37CA5 /* StatusViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D80D81601D34307400C23373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80D813E1D34307400C23373 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80D81451D34307400C23373;
+			remoteInfo = DigitalLeashParentApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D80D81461D34307400C23373 /* DigitalLeashParentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalLeashParentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80D814A1D34307400C23373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D80D814C1D34307400C23373 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D80D814D1D34307400C23373 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D80D814F1D34307400C23373 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D80D81501D34307400C23373 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D80D81531D34307400C23373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D80D81551D34307400C23373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D80D81581D34307400C23373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D80D815A1D34307400C23373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80D815F1D34307400C23373 /* DigitalLeashParentAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalLeashParentAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80D81631D34307400C23373 /* DigitalLeashParentAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DigitalLeashParentAppUITests.m; sourceTree = "<group>"; };
+		D80D81651D34307400C23373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89D134B1D36E25800C37CA5 /* StatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusViewController.h; sourceTree = "<group>"; };
+		D89D134C1D36E25800C37CA5 /* StatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D80D81431D34307400C23373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80D815C1D34307400C23373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D80D813D1D34307400C23373 = {
+			isa = PBXGroup;
+			children = (
+				D80D81481D34307400C23373 /* DigitalLeashParentApp */,
+				D80D81621D34307400C23373 /* DigitalLeashParentAppUITests */,
+				D80D81471D34307400C23373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D80D81471D34307400C23373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D80D81461D34307400C23373 /* DigitalLeashParentApp.app */,
+				D80D815F1D34307400C23373 /* DigitalLeashParentAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D80D81481D34307400C23373 /* DigitalLeashParentApp */ = {
+			isa = PBXGroup;
+			children = (
+				D80D81521D34307400C23373 /* Main.storyboard */,
+				D80D814F1D34307400C23373 /* ViewController.h */,
+				D80D81501D34307400C23373 /* ViewController.m */,
+				D89D134B1D36E25800C37CA5 /* StatusViewController.h */,
+				D89D134C1D36E25800C37CA5 /* StatusViewController.m */,
+				D80D814C1D34307400C23373 /* AppDelegate.h */,
+				D80D814D1D34307400C23373 /* AppDelegate.m */,
+				D80D81551D34307400C23373 /* Assets.xcassets */,
+				D80D81571D34307400C23373 /* LaunchScreen.storyboard */,
+				D80D815A1D34307400C23373 /* Info.plist */,
+				D80D81491D34307400C23373 /* Supporting Files */,
+			);
+			path = DigitalLeashParentApp;
+			sourceTree = "<group>";
+		};
+		D80D81491D34307400C23373 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D80D814A1D34307400C23373 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D80D81621D34307400C23373 /* DigitalLeashParentAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D80D81631D34307400C23373 /* DigitalLeashParentAppUITests.m */,
+				D80D81651D34307400C23373 /* Info.plist */,
+			);
+			path = DigitalLeashParentAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D80D81451D34307400C23373 /* DigitalLeashParentApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80D81681D34307400C23373 /* Build configuration list for PBXNativeTarget "DigitalLeashParentApp" */;
+			buildPhases = (
+				D80D81421D34307400C23373 /* Sources */,
+				D80D81431D34307400C23373 /* Frameworks */,
+				D80D81441D34307400C23373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigitalLeashParentApp;
+			productName = DigitalLeashParentApp;
+			productReference = D80D81461D34307400C23373 /* DigitalLeashParentApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D80D815E1D34307400C23373 /* DigitalLeashParentAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80D816B1D34307400C23373 /* Build configuration list for PBXNativeTarget "DigitalLeashParentAppUITests" */;
+			buildPhases = (
+				D80D815B1D34307400C23373 /* Sources */,
+				D80D815C1D34307400C23373 /* Frameworks */,
+				D80D815D1D34307400C23373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80D81611D34307400C23373 /* PBXTargetDependency */,
+			);
+			name = DigitalLeashParentAppUITests;
+			productName = DigitalLeashParentAppUITests;
+			productReference = D80D815F1D34307400C23373 /* DigitalLeashParentAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D80D813E1D34307400C23373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TurnToTech;
+				TargetAttributes = {
+					D80D81451D34307400C23373 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D80D815E1D34307400C23373 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D80D81451D34307400C23373;
+					};
+				};
+			};
+			buildConfigurationList = D80D81411D34307400C23373 /* Build configuration list for PBXProject "DigitalLeashParentApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D80D813D1D34307400C23373;
+			productRefGroup = D80D81471D34307400C23373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D80D81451D34307400C23373 /* DigitalLeashParentApp */,
+				D80D815E1D34307400C23373 /* DigitalLeashParentAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D80D81441D34307400C23373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80D81591D34307400C23373 /* LaunchScreen.storyboard in Resources */,
+				D80D81561D34307400C23373 /* Assets.xcassets in Resources */,
+				D80D81541D34307400C23373 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80D815D1D34307400C23373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D80D81421D34307400C23373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89D134D1D36E25800C37CA5 /* StatusViewController.m in Sources */,
+				D80D81511D34307400C23373 /* ViewController.m in Sources */,
+				D80D814E1D34307400C23373 /* AppDelegate.m in Sources */,
+				D80D814B1D34307400C23373 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80D815B1D34307400C23373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80D81641D34307400C23373 /* DigitalLeashParentAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D80D81611D34307400C23373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D80D81451D34307400C23373 /* DigitalLeashParentApp */;
+			targetProxy = D80D81601D34307400C23373 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D80D81521D34307400C23373 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80D81531D34307400C23373 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D80D81571D34307400C23373 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80D81581D34307400C23373 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D80D81661D34307400C23373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D80D81671D34307400C23373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D80D81691D34307400C23373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DigitalLeashParentApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = turntotech.io.DigitalLeashParentApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D80D816A1D34307400C23373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DigitalLeashParentApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = turntotech.io.DigitalLeashParentApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D80D816C1D34307400C23373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DigitalLeashParentAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = turntotech.io.DigitalLeashParentAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DigitalLeashParentApp;
+			};
+			name = Debug;
+		};
+		D80D816D1D34307400C23373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DigitalLeashParentAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = turntotech.io.DigitalLeashParentAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DigitalLeashParentApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D80D81411D34307400C23373 /* Build configuration list for PBXProject "DigitalLeashParentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80D81661D34307400C23373 /* Debug */,
+				D80D81671D34307400C23373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80D81681D34307400C23373 /* Build configuration list for PBXNativeTarget "DigitalLeashParentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80D81691D34307400C23373 /* Debug */,
+				D80D816A1D34307400C23373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80D816B1D34307400C23373 /* Build configuration list for PBXNativeTarget "DigitalLeashParentAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80D816C1D34307400C23373 /* Debug */,
+				D80D816D1D34307400C23373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D80D813E1D34307400C23373 /* Project object */;
+}
